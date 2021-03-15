@@ -1,6 +1,7 @@
 body{
     width: 1100px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 header{
@@ -12,6 +13,8 @@ header{
 
 #logo{
     width: 20%;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
 h1{
@@ -55,4 +58,29 @@ thead{
 
 tbody>tr:nth-child(2n+1){
     background-color: #b1e5f2;
+}
+
+h3{
+    color: grey;
+    font-weight: bold;
+}
+
+.quote{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#quote1{
+    background-image: url("../img/monitor.jpg");
+}
+
+#quote2{
+    background-image: url("../img/graph.jpg");
 }
