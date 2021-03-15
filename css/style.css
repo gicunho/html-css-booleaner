@@ -3,16 +3,20 @@ body{
     margin: auto;
 }
 
-#logo{
-    height: 200px;
+header{
+    height: 100px;
     background-color: #4ea0ff;
-    background-image: url();
-    background-size: cover;
+    background-image: url(../img/pattern.png);
+    background-size: 40%;
+}
+
+#logo{
+    width: 20%;
 }
 
 h1{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 5px;
 }
 
@@ -29,4 +33,26 @@ h1{
 
 .photo_description{
     font-size: 12px;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td:last-child{
+    width: 50%;
+}
+
+thead{
+    color: white;
+    background-color: #20a9e5;
+    text-align: left;
+}
+
+tbody>tr:nth-child(2n+1){
+    background-color: #b1e5f2;
 }
